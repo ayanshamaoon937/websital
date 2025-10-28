@@ -876,6 +876,51 @@
                         </div>
                     </div>
                     <div class="row">
+                        <div class="col-xl-4 col-md-6">
+                            <div class="st-portfolio-item st-portfolio-item-1 z-index-1 mb-30">
+                                <div class="st-portfolio-item-thumb">
+                                    <a target="_blank" href="https://sunnydaysolarservices.com/">
+                                        <img alt="" src="assets/img/project/web-project-3.webp">
+                                    </a>
+                                </div>
+                                <div class="st-portfolio-item-content">
+                                    <h4 class="st-portfolio-item-title"><a target="_blank"
+                                                                           href="https://sunnydaysolarservices.com/">Sunny Day Solar Services</a></h4>
+                                    <div class="st-portfolio-item-btn">
+                                        <a class="tp-line-black" target="_blank" href="https://sunnydaysolarservices.com/">
+                                            View case study
+                                            <span>
+                                                <svg fill="none" height="14" viewBox="0 0 14 14" width="14"
+                                                     xmlns="http://www.w3.org/2000/svg">
+                                                    <path d="M1 7H13" stroke="currentColor" stroke-linecap="round"
+                                                          stroke-linejoin="round" stroke-width="1.5"></path>
+                                                    <path d="M7 1L13 7L7 13" stroke="currentColor"
+                                                          stroke-linecap="round" stroke-linejoin="round"
+                                                          stroke-width="1.5"></path>
+                                                </svg>
+                                            </span>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="offset-xl-5 col-xl-3 col-md-6">
+                            <div class="st-portfolio-item st-portfolio-item-2 z-index-1 mb-30">
+                                <div class="st-portfolio-item-thumb">
+                                    <a href="https://echomintadvt.com/" target="_blank">
+                                        <img alt="" src="assets/img/project/web-project-4.webp">
+                                    </a>
+                                </div>
+                                <div class="st-portfolio-item-content">
+                                    <h4 class="st-portfolio-item-title">
+                                        <a href="https://echomintadvt.com/" target="_blank">EchoMint Advertisement Website U.A.E</a>
+                                    </h4>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
                         <div class="col-xl-3 col-md-6">
                             <div class="st-portfolio-item st-portfolio-item-4 z-index-1 mb-30">
                                 <div class="st-portfolio-item-thumb">
@@ -907,11 +952,11 @@
                             <div class="st-portfolio-item st-portfolio-item-6 z-index-1 mb-30">
                                 <div class="st-portfolio-item-thumb">
                                     <a>
-                                        <img alt="" src="assets/img/project/project-6.webp">
+                                        <img alt="" src="assets/img/project/project-6.jpeg">
                                     </a>
                                 </div>
                                 <div class="st-portfolio-item-content">
-                                    <h4 class="st-portfolio-item-title"><a>Online Courses Academy</a></h4>
+                                    <h4 class="st-portfolio-item-title"><a>Online E-commerce Store</a></h4>
                                 </div>
                             </div>
                         </div>
@@ -938,19 +983,11 @@
                                 <span class="creative-choose-text-middle">something better than I ever</span><br>
                                 <span class="creative-choose-text-bottom">could have imagined</span>
                             </p>
-                            <div class="creative-choose-avater-box d-inline-flex align-items-center">
-                                <div class="creative-choose-avater">
-                                    <img alt="" src="assets/img/home/avatar.webp">
-                                </div>
-                                <div class="creative-choose-avater-info">
-                                    <h4>Faizan Ansari</h4>
-                                    <span>Co-Founder of Websital</span>
-                                </div>
-                            </div>
+                            
                         </div>
                     </div>
                     <div class="st-video-img">
-                        <img alt="" class="w-100" data-speed=".8" src="assets/img/home/video-cover.webp">
+                        <img alt="" class="w-100" data-speed=".8" src="assets/img/home/video-cover.jpg">
                         <a class="popup-video dgm-testimonial-playbtn z-index-1"
                            href="assets/video/projects.mp4">
                                 <span>

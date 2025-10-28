@@ -255,7 +255,7 @@
                         <div class="col-lg-6">
                             <div class="pp-service-details-overview-thumb text-lg-end">
                                 <div class="tp_img_reveal">
-                                    <img src="assets/img/services-new/game-development-service.webp" alt="">
+                                    <img src="assets/img/services-new/game-development-service.jpg" alt="">
                                 </div>
                             </div>
                         </div>
