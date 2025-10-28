@@ -200,7 +200,7 @@
                             <div class="col-lg-6">
                                 <div class="pp-service-details-overview-thumb text-lg-end">
                                     <div class="tp_img_reveal">
-                                        <img src="assets/img/services-new/amazon-service.webp" alt="">
+                                        <img src="assets/img/services-new/amazon-service.jpg" alt="">
                                     </div>
                                 </div>
                             </div>
@@ -331,7 +331,7 @@
                                 <div class="col-lg-6"><div class="tp-service-5-price-item-list"><ul>
                                     <li><span><svg xmlns="http://www.w3.org/2000/svg" width="12" height="9" viewBox="0 0 12 9" fill="none"><path d="M11 1L4.125 8L1 4.81818" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /></svg></span>Full account management</li>
                                     <li><span><svg xmlns="http://www.w3.org/2000/svg" width="12" height="9" viewBox="0 0 12 9" fill="none"><path d="M11 1L4.125 8L1 4.81818" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /></svg></span>New SKUs & expansion</li>
-                                    <li><span><svg xmlns="http://www.w3.org/2000/svg" width="12" height="9" viewBox="0 0 12 9" fill="none"><path d="M11 1L4.125 8L1 4.81818" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /></svg></span>Weekly ops + strategy</li>
+                                    <li><span><svg xmlns="http://www.w3.org/2000/svg" width="12" height="9" viewBox="0 0 12 9" fill="none"><path d="M11 1L4.125 8L1 4.81818" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /></svg></span>Monthly ops + strategy</li>
                                 </ul></div></div>
                                 <div class="col-lg-3"><div class="tp-service-5-price-item-head text-lg-end"><h4>$600</h4></div></div>
                             </div>

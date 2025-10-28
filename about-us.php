@@ -239,7 +239,7 @@
                                     <div class="row">
                                         <div class="col-xl-5 col-lg-4 col-md-5">
                                             <div class="tp-about-thumb">
-                                                <img data-speed=".8" src="assets/img/about-us/about-1.webp" alt="">
+                                                <img data-speed=".8" src="assets/img/about-us/about-1.jpg" alt="">
                                             </div>
                                         </div>
                                         <div class="col-xl-7 col-lg-8 col-md-7">
