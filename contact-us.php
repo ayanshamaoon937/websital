@@ -69,24 +69,24 @@
             position: absolute !important;
             left: 0 !important; 
             right: 0 !important;
-            background: #1B1B1D !important;
-            border: 1px solid rgba(255,255,255,0.08) !important;
-            border-radius: 12px !important;
             margin-top: 8px !important;
             padding: 8px 0 !important;
             display: none !important;
             z-index: 9999 !important;
-            max-height: 0 !important;
+            max-height: 400px !important;
             overflow: hidden !important;
             opacity: 0 !important;
             visibility: hidden !important;
             transition: all 0.3s ease !important;
             box-shadow: 0 4px 12px rgba(0,0,0,0.3) !important;
             top: 100% !important;
+            background: #302f33 !important;
+            border-radius: 8px !important;
+            border: 1px solid #302f33 !important;
         }
         .tp-contact-us-wrap .tp-contact-form-input .custom-select.open .cs-list { 
             display: block !important;
-            max-height: 280px !important;
+            max-height: 400px !important;
             opacity: 1 !important;
             visibility: visible !important;
             overflow: visible !important;
@@ -95,7 +95,7 @@
         /* More specific selector to ensure it overrides */
         #service-select.custom-select.open .cs-list {
             display: block !important;
-            max-height: 280px !important;
+            max-height: 400px !important;
             opacity: 1 !important;
             visibility: visible !important;
             overflow: visible !important;
@@ -104,7 +104,7 @@
         /* Force override any conflicting styles */
         .custom-select.open .cs-list {
             display: block !important;
-            max-height: 280px !important;
+            max-height: 400px !important;
             opacity: 1 !important;
             visibility: visible !important;
             overflow: visible !important;
@@ -114,7 +114,7 @@
         .tp-contact-us-wrap .tp-contact-form-input .custom-select.open .cs-list,
         .tp-contact-us-wrap .tp-contact-form-input #service-select.custom-select.open .cs-list {
             display: block !important;
-            max-height: 280px !important;
+            max-height: 400px !important;
             opacity: 1 !important;
             visibility: visible !important;
             overflow: visible !important;
@@ -126,7 +126,7 @@
         .tp-contact-us-wrap .custom-select.open .cs-list,
         .tp-contact-form-input .custom-select.open .cs-list {
             display: block !important;
-            max-height: 280px !important;
+            max-height: 400px !important;
             opacity: 1 !important;
             visibility: visible !important;
             overflow: visible !important;
@@ -577,7 +577,7 @@
                             display: block !important;
                             opacity: 1 !important;
                             visibility: visible !important;
-                            max-height: 280px !important;
+                            max-height: 400px !important;
                             overflow: visible !important;
                             height: auto !important;
                             min-height: 50px !important;
@@ -606,7 +606,16 @@
                         const value = this.getAttribute('data-value');
                         trigger.textContent = value;
                         hiddenInput.value = value;
+                        
+                        // Close dropdown with proper styling
                         customSelect.classList.remove('open');
+                        list.style.display = 'none';
+                        list.style.opacity = '0';
+                        list.style.visibility = 'hidden';
+                        list.style.maxHeight = '0';
+                        list.style.overflow = 'hidden';
+                        
+                        console.log('Option selected:', value, 'Dropdown closed');
                     });
                 });
                 
@@ -614,6 +623,12 @@
                 document.addEventListener('click', function(e) {
                     if (!customSelect.contains(e.target)) {
                         customSelect.classList.remove('open');
+                        list.style.display = 'none';
+                        list.style.opacity = '0';
+                        list.style.visibility = 'hidden';
+                        list.style.maxHeight = '0';
+                        list.style.overflow = 'hidden';
+                        console.log('Dropdown closed by clicking outside');
                     }
                 });
                 
@@ -756,6 +771,15 @@
                         trigger.textContent = 'Select a service';
                         hiddenInput.value = '';
                         customSelect.classList.remove('open');
+                        const list = customSelect.querySelector('.cs-list');
+                        if (list) {
+                            list.style.display = 'none';
+                            list.style.opacity = '0';
+                            list.style.visibility = 'hidden';
+                            list.style.maxHeight = '0';
+                            list.style.overflow = 'hidden';
+                        }
+                        console.log('Form reset - dropdown closed');
                     }
                 } else {
                     // Show error message

@@ -306,7 +306,7 @@
                             <div class="col-lg-12 mb-4">
                                 <h2 class="text-white display-4 mb-0">Our Projects</h2>
                             </div>
-                            <div class="col-lg-6">
+                            <div class="col-lg-6 mb-4 mb-lg-5">
                                 <a target="_blank" href="https://seabox.sg/" class="pp-service-details-thumb fix mb-30">
                                     <div class="tp_img_reveal">
                                         <img src="assets/img/project/web-project-1.webp" alt="">
@@ -316,13 +316,33 @@
                                     </div>
                                 </a>
                             </div>
-                            <div class="col-lg-6">
+                            <div class="col-lg-6 mb-4 mb-lg-5">
                                 <a target="_blank" href="https://unmewt.com/" class="pp-service-details-thumb fix mb-30">
                                     <div class="tp_img_reveal">
                                         <img src="assets/img/project/web-project-2.webp" alt="">
                                     </div>
                                     <div class="text-white h2 mt-4">
                                         Unmewt Cyber Security
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="col-lg-6 mb-4 mb-lg-5">
+                                <a target="_blank" href="https://sunnydaysolarservices.com/" class="pp-service-details-thumb fix mb-30">
+                                    <div class="tp_img_reveal">
+                                        <img src="assets/img/project/web-project-3.webp" alt="">
+                                    </div>
+                                    <div class="text-white h2 mt-4">
+                                        Sunny Day Solar Services Website Australia
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="col-lg-6 mb-4 mb-lg-5">
+                                <a target="_blank" href="https://echomintadvt.com/" class="pp-service-details-thumb fix mb-30">
+                                    <div class="tp_img_reveal">
+                                        <img src="assets/img/project/web-project-4.webp" alt="">
+                                    </div>
+                                    <div class="text-white h2 mt-4">
+                                       EchoMint Advertisement Website U.A.E
                                     </div>
                                 </a>
                             </div>
